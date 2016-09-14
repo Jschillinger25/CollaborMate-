@@ -18,7 +18,6 @@ html, body{
    line-height: 19px;
    font-weight: 100;
  }
-
 /* GRID */
  .container {
    margin-right: auto;
@@ -42,10 +41,7 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
-
 /* Media */
-
-
    @media (min-width: 400px) and (max-width: 767px) {
      .container {
      width:380px;
@@ -60,8 +56,6 @@ html, body{
        width:95%;
 }
 }
-
-
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -105,15 +99,12 @@ html, body{
      width:21%;
    }
  }
-
 @media screen and (min-width: 1900px) {
   .container {
     width: 1870px;
   }
 }
-
 /* HEADER */
-
  header {
    color:#FFFFFF;
    background: #34495E;
@@ -148,7 +139,6 @@ html, body{
  header nav ul > li.btn-outline:hover > a {
    color:#34495E;
  }
-
 header .hero {
    text-align: center;
    display:block;
@@ -169,7 +159,6 @@ header .hero {
    display: block;
    margin:3em auto 0;
  }
-
 /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -181,7 +170,6 @@ header .hero {
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
  }
-
 /* BENEFITS */
  .benefits {
    text-align: center;
@@ -205,7 +193,6 @@ header .hero {
  .benefits h2 {
    color:#3498DB;
  }
-
 /* PRICING */
  .pricing {
    background: #34495E url("../images/background.png") top center no-repeat;
@@ -224,7 +211,6 @@ header .hero {
  .pricing ul li {
    list-style-type: none;
  }
-
 .box {
    padding:0 15px 15px;
    background: #FFFFFF;
@@ -250,7 +236,6 @@ header .hero {
    margin:0 -15px 40px;
    padding:10px 0;
  }
-
 .box h4 {
    font-size:50px;
    font-weight: normal;
@@ -273,7 +258,6 @@ header .hero {
    margin-bottom:20px;
    font-weight: 100;
  }
-
 .box .btn {
    position:absolute;
    bottom:20px;
@@ -286,7 +270,6 @@ header .hero {
    line-height: 15px;
    font-style:italic;
  }
-
 /* TESTIMONIALS */
  .testimonials {
    padding:4em 0;
@@ -321,7 +304,6 @@ header .hero {
    border-width: 10px;
    margin-left: -10px;
  }
-
 .testimonials img {
    height: 65px;
    width: 65px;
@@ -337,11 +319,10 @@ header .hero {
    font-size:13px;
    margin-top: 30px;
  }
-
 .testimonials .staggered {
     margin-top: 20px;
 }
-.c2a {text-align: center;
+.call-to-action {text-align: center;
       margin-bottom: 90px;}
 /* FOOTER */
  footer {
@@ -376,7 +357,6 @@ header .hero {
    margin: 0 auto;
    display: block;
  }
-
 @media (min-width: 992px){
    footer{
      background-color: #3498DB;
@@ -395,7 +375,6 @@ header .hero {
      padding: 2em 0 2em 1.5em;
    }
 }
-
    @media (min-width: 768px)  {
     .box {
    padding:0 15px 15px;
@@ -433,9 +412,11 @@ footer .right-footer-block {
 footer {background-image: linear-gradient(to top,
     #34495E 0%, #34495E 50%, #34495E 50%, #34495E 100%);}
 }
-
   @media (min-width: 400px) and (max-width: 767px) {
    
+      header nav ul{
+          padding-left:0;
+      }
  header nav ul > li {
   
    margin:0 15px;
@@ -449,7 +430,7 @@ footer {background-image: linear-gradient(to top,
  
  header nav ul > li > a {
    
-     font-size: 11px;
+     font-size: 12px;
  }
 header .hero h1 {
    font-size:24px;
@@ -489,7 +470,6 @@ header .hero h1 {
       p{font-size:11px;}
       
 .pricing {
-
    padding:0em 0;
  }
       .pricing ul {
@@ -509,19 +489,16 @@ header .hero h1 {
    margin:40px 0 10px;
    
  }
-
  .box ul li {
    font-size:18px;
    line-height: 20px;
  }
-
 .box .btn {
    bottom:10px;
   
  }
  .small {
    font-size: 6px;
-
  }
       /* TESTIMONIALS */
  .testimonials {
@@ -530,7 +507,6 @@ header .hero h1 {
  }
  
  
-
  
  .testimonials blockquote {
   
@@ -543,33 +519,29 @@ header .hero h1 {
    border-width: 10px;
    margin-left: -10px;
  }
-
 .testimonials img {
    
    margin:10px 10px 0 0;
  }
  .testimonials p.name {
   
-   font-size:8px;
+   font-size:12px;
    margin-top: 30px;
  }
-
-
       .c2a {text-align: center;
       margin-bottom: 90px;}
       
       /* FOOTER */
-
 footer {
   
    height: 75px;
    
  }
  footer p, footer nav ul {
-   font-size:7px;
+   padding-left: 0;
+   font-size:12px;
    font-weight:100;
   
    margin: 10px auto 0;
  }
-
 }
